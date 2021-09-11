@@ -25,7 +25,7 @@ function Start() {
       pomodoro_timer_second.className = 0;
     }
 
-    forSecond = setInterval(Downloader, 10);
+    forSecond = setInterval(Downloader, 1000);
   } else {
     console.log("else");
     Stop();
