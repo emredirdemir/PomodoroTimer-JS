@@ -2,7 +2,6 @@ let pomodoro_timer_minute = document.getElementById("pomodoro_minute");
 let pomodoro_timer_second = document.getElementById("pomodoro_second");
 let status = document.getElementById("status");
 let pomodoroCount = document.getElementById("pomodoro-count");
-
 let buttons = document.getElementById("StartAndStop");
 
 let pomodoro_second = "00";
